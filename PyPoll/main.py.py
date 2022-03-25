@@ -7,8 +7,9 @@ election_csv = os.path.join("Resources", "election_data.csv")
 total_votes = []
 individual_votes = {}
 winner = []
-candidates = []
-candidate_name = []
+candidate_list = ["Charles Casper Stockham: ","Diana Degett: ","Raymon_Anthony Doane: "]
+
+
 
 
 
@@ -26,7 +27,24 @@ with open(election_csv) as csv_file:
 
         #add the total votes cast
         total_votes.append(row[0])
+    
 
+
+
+    
+
+
+#to find each candidate vote count, we need to create a for loop
+#for loop such act as (an n + 1) + (n) until it reaches a new candidate name
+
+
+
+
+
+    
+
+
+    
 
 
 #complete a list of candidates who received votes

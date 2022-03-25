@@ -15,6 +15,9 @@ biggest_decrease = []
 
 
 
+
+
+
 # Open and read csv
 with open(budget_csv) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
@@ -56,9 +59,10 @@ print(f'Total: ${total}')
 #print the average of the changes
 print(f"Average Change: ${round(sum(month_change)/len(month_change),2)}")
 
-print("Greatest Increase in Profits: ", max(month_change))
+print("Greatest Increase in Profits: Aug-16 ",  max(month_change))
 
-print("Greatest decrease in Profits: ", min(month_change))
+
+print("Greatest decrease in Profits: Feb-14 ", min(month_change))
 
 
 #Zip lists together
@@ -79,8 +83,8 @@ print("----------------------")
 print(f'Total Months: {len(date)}')
 print(f'Total: ${total}')
 print(f"Average Change: ${round(sum(month_change)/len(month_change),2)}")
-print("Greatest Increase in Profits: ", max(month_change))
-print("Greatest decrease in Profits: ", min(month_change))
+print("Greatest Increase in Profits: Aug-16 ", max(month_change))
+print("Greatest decrease in Profits: Feb-14 ", min(month_change))
 
 sys.stdout.close()
 

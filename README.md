@@ -1,4 +1,4 @@
-Python-Challenge: A Deep-Dive on Financial Earnings and Election Results
+## Python-Challenge: A Deep-Dive on Financial Earnings and Election Results
 
 ## Description: 
 Welcome! This project is an activity to exemplify the many powerful tools and purposes of using Python in the data science community.
